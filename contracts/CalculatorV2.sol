@@ -15,7 +15,7 @@ contract CalculatorV2 {
   }
 
   // returns the result
-  function getResult() constant returns (uint){
+  function getResult() public constant returns (uint){
     return result;
   }
 
